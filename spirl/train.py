@@ -31,9 +31,6 @@ import spirl
 
 class ModelTrainer(BaseTrainer):
     def __init__(self, args):
-        
-        wandb.init(project="skill_learning")# change
-
         self.args = args
         self.setup_device()
 
